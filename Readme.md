@@ -2,7 +2,7 @@
 
 This guide is a tentative to synthesize Cisco APIs for developers & ITPros with no to little knowledge of Cisco lines of hardware and software products.
  
-Started this guide as a tribute to my "First Days Party" @Cisco Live Berlin Feb15-19 2016.
+Started as a tribute to my "First Days Party" @Cisco Live Berlin Feb15-19 2016.
 
 
 # New to Cisco for developers ?
@@ -11,24 +11,25 @@ You definitely need to check the [DevNet portal](https://developer.cisco.com/sit
 
 Take a few minutes to create your accout, it's really worth it :
 - [DevNet](https://developer.cisco.com/site/devnet/home/index.gsp): umbrella to technical resources about IoT, Cloud, Networking, Data Center, Collaboration, Analytics & Automation, Security, Services, DevOps, Microservices
-- [Learning labs](https://learninglabs.cisco.com/springboards) : step by step walkthrough on live environments to interact with CISCO APIs
+- [Learning labs](https://learninglabs.cisco.com/springboards) : step by step walkthroughs for developers, featuring live environments / sandboxes to interact with CISCO Hardware via REST APIs
 - [Programming foundation](https://learninglabs.cisco.com/modules/programming-found) : learn REST principles and how to call them via a User Interface, from the command line, or from code
-- [Sandbox](https://developer.cisco.com/site/devnet/sandbox/): provision various CISCO hardware and network topologies and experiment Live APIs. Envs are provisionned for your own use from 3 hours to 7 days. APIC-EM , Cisco Open SDN Controller , Jabber , Webex , Intercloud Fabric... 
-- [DevNet Labs](- Technical articles) : Showcase of software projects built out from CISCO APIs and/or open technologies
+- [Sandbox](https://developer.cisco.com/site/devnet/sandbox/): provision various CISCO hardware and network topologies and experiment Live APIs. Environments are provisionned for your own use from 3 hours to 7 days. APIC-EM , Cisco Open SDN Controller , Jabber , Webex , Intercloud Fabric... 
+- [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : Showcase of software projects built out of CISCO APIs and open technologies contributed by Cisco
+
 
 # Collaboration APIs
 
 ## Tropo 
  
-Since 2009, Tropo provides Cloud Services to integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages. [Read more...](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1)
+Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, and by integration, understand both ways : 
+your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages. 
+[Read more...](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1)
 
-State : Worldwide availability, numbers in 42 countries, 80 speech langages
+State : Worldwide availability, numbers in 42 countries, 80 speech languages
 
-Cloud : data center facilites in the US, coming to Europe by June 2016
+Cloud : data center facilities in the US, coming to Europe by June 2016
 
-[Pricing](https://www.tropo.com/pricing/)
-
-- [Tropo](https://developer.cisco.com/site/spark/) : Product portal
+- [Tropo](http://www.tropo.com) : Product portal, [pricing](https://www.tropo.com/pricing/)
 - [APIs](https://www.tropo.com/docs/) : scripting, Web API & REST API documentation
 - [Github Samples](https://github.com/tropo/tropo-samples)
 - [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages. 
@@ -44,8 +45,8 @@ Cloud : data center facilites in the US, coming to Europe by June 2016
 
 ## Cisco Spark APIs
 
-Cisco Spark is the all-in-one collaboration platform for the extended entreprise. 
-To make it quick, Cisco Spark is a multi-client platform (Phone, Mac, Windows apps), backed by Cloud Collaboration Services (persistent chat rooms, WebRTC video conferencing), enabling 1-1, 1-few, 1-many communication. 
+Since March 2015, [Cisco Spark](https://www.ciscospark.com/) is the all-in-one collaboration platform for the extended entreprise. 
+In short, Cisco Spark is a multi-client platform (Phone, Mac, Windows apps), backed by Cloud Collaboration Services (persistent chat rooms, WebRTC video conferencing), enabling 1-1, 1-few, 1-many communication. 
 Cisco Spark can be used for short-live meeting rooms, but also long-live collaborative workspaces, opened to internal co-workers, but also partners and external communities.
 
 The overall Cisco Spark platform can be managed via [REST APIs](https://developer.ciscospark.com/getting-started.html) : easily bring messaging capabilities into your apps, automatically send messages to Spark rooms based on real-world/business events.
@@ -59,7 +60,9 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
       - [marcello](https://twitter.com/marchfederico)
       - [paul](https://twitter.com/paultodwyer)
       - [phil](https://twitter.com/PBellanti)
-
+   - Consulting team
+      - [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team 
+   
 
 # Hardware and Network capable APIs
 
