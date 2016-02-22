@@ -1,7 +1,6 @@
 # About
 
 This guide is a tentative to synthesize Cisco APIs for developers & ITPros with no to little knowledge of Cisco lines of hardware and software products.
- 
 Started as a tribute to my "First Days Party" @Cisco Live Berlin Feb15-19 2016.
 
 
@@ -71,6 +70,9 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 # Hardware and Network capable APIs
 
+[All about Cisco networking technologies for developers](https://developer.cisco.com/networking)
+
+
 ## SDN - Software Defined Network APIs
 
 - ACI/APIC
@@ -79,6 +81,17 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
  
 - [RESTCONF](http://sdntutorials.com/what-is-restconf)
 - [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
+
+## Private cloud
+
+### Metapod   
+
+- [Cisco Metapod](https://developer.cisco.com/site/Metapod/) : openstack pre-configured topology operated by Cisco on your premises 
+
+## Hybrid cloud
+
+- [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic
+
 
 # Other cool Cisco technologies for developers
 
@@ -95,22 +108,12 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 - [MANTL](https://mantl.io/) : a microservices framework on top of openstack
 
-## Private Cloud
-
-### Metapod   
-
-- [Cisco Metapod](https://developer.cisco.com/site/Metapod/) : openstack pre-configured topology operated by Cisco on your premises 
 
 ## Web frameworks
 
 ### NeXt
 
 - [NeXt](https://developer.cisco.com/site/neXt/)
-
-## Hybrid cloud
-
-### Morpheus (Cisco partner)
-
 
 
 
