@@ -2,6 +2,7 @@
 
 This guide is a tentative to synthesize Cisco APIs for developers & ITPros with no to little knowledge of Cisco lines of hardware and software products.
 Started as a tribute to my "First Days Party" @Cisco Live Berlin Feb15-19 2016.
+Contributors welcome, CC BY 4.0 licence. 
 
 
 # New to Cisco for developers ?
