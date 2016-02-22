@@ -23,16 +23,13 @@ Take a few minutes to create your accout, it's really worth it :
  
 Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, and by integration, understand both ways : 
 your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages. 
-[Read more...](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1)
+Worldwide availability, numbers in 42 countries, 80 speech languages
+Data center facilities in the US, [coming to Europe by June 2016](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1)
 
-State : Worldwide availability, numbers in 42 countries, 80 speech languages
-
-Cloud : data center facilities in the US, coming to Europe by June 2016
-
-- [Tropo](http://www.tropo.com) : Product portal, [pricing](https://www.tropo.com/pricing/)
-- [APIs](https://www.tropo.com/docs/) : scripting, Web API & REST API documentation
+- [Tropo APIs](https://www.tropo.com/docs/) : scripting, Web API & REST API documentation
 - [Github Samples](https://github.com/tropo/tropo-samples)
-- [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages. 
+- [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages.
+- [Pricing](https://www.tropo.com/pricing/)
 - [Twitter](https://twitter.com/Tropo)
    - [changes](https://twitter.com/tropochanges) : Follow to see what [changes](changes.tropo.com) get made to Tropo
    - Technical team
@@ -45,12 +42,13 @@ Cloud : data center facilities in the US, coming to Europe by June 2016
 
 ## Cisco Spark APIs
 
-Since March 2015, [Cisco Spark](https://www.ciscospark.com/) is the all-in-one collaboration platform for the extended entreprise. 
+Since March 2015, [Cisco Spark](https://www.ciscospark.com/) is the all-in-one Cloud Collaboration platform for the extended enterprise. 
 In short, Cisco Spark is a multi-client platform (Phone, Mac, Windows apps), backed by Cloud Collaboration Services (persistent chat rooms, WebRTC video conferencing), enabling 1-1, 1-few, 1-many communication. 
 Cisco Spark can be used for short-live meeting rooms, but also long-live collaborative workspaces, opened to internal co-workers, but also partners and external communities.
 
 The overall Cisco Spark platform can be managed via [REST APIs](https://developer.ciscospark.com/getting-started.html) : easily bring messaging capabilities into your apps, automatically send messages to Spark rooms based on real-world/business events.
 
+- [Spark APIs](https://developer.ciscospark.com/getting-started.html): REST APIs interactive documentation 
 - [Spark for developers](https://developer.cisco.com/site/spark/): the DevNet umbrella for all Spark related contents for developers
 - [Learning labs](https://developer.cisco.com/site/spark/): Rooms and messages, Authentication, WebHooks
 - [Twitter](https://twitter.com/ciscosparkdev) 
