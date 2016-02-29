@@ -98,7 +98,7 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 ## DevOps
 
-### Cisco Shipped (Beta)
+### Cisco Shipped (Cloud offering, Public Beta)
 
 Shipped is a CI and CD platform, built on top of best of breed technologies and opensource projects : Docker, Vagrant, Drone (a Continuous Delivery platform built on Docker, written in Go) and MANTL.
 
@@ -110,9 +110,15 @@ Shipped can deploy your code on any MANTL capable platforms: either run by Cisco
 - [Walkthroughs](https://ciscoshipped.io/shipped/api-docs/build/index.html#walkthroughs) : setup a project, build, deploy
 - [Twitter](https://twitter.com/projectshipped)
 
-### Cisco Zeus ()
 
-http://www.ciscozeus.io/
+### Cisco Zeus (Cloud offering, Restricted Beta)
+
+Zeus is a Cloud-based Logging and Monitoring Service. Use the Zeus API or standard agents (such as fluent, syslog, logstash, collectd, statsd) to push your logs and metrics to Zeus.
+Interactively visualize, search or analyze your data, or query / aggregate via the Zeus API.
+
+- [Zeus Portal](http://www.ciscozeus.io/) : request access to the beta
+- [Github Repo](https://github.com/CiscoZeus) : python , ruby, java and go clients
+- [API Documentation](http://api.ciscozeus.io/) : Swagger UI
 
 
 ## Microservices
