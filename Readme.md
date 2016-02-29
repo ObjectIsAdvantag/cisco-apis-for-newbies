@@ -93,6 +93,19 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 - [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic
 
+# Data
+
+## Cisco Zeus (Cloud offering, Restricted Beta)
+
+Zeus is a Cloud-based Logging and Monitoring Service. Use the Zeus API or standard agents (such as fluent, syslog, logstash, collectd, statsd) to push your logs and metrics to Zeus.
+Interactively visualize, search or analyze your data, or query / aggregate via the Zeus API.
+
+- [Zeus Portal](http://www.ciscozeus.io/) : request access to the beta
+- [Github Repo](https://github.com/CiscoZeus) : python , ruby, java and go clients
+- [API Documentation](http://api.ciscozeus.io/) : Swagger UI
+- [Getting started guide](http://blogs.ciscozeus.io/2015/09/getting-started-with-logs-and-metrics.html)
+- [Zeus Blog](http://blogs.ciscozeus.io/
+
 
 # Other cool Cisco technologies for developers
 
@@ -109,16 +122,6 @@ Shipped can deploy your code on any MANTL capable platforms: either run by Cisco
 - [Documentation](https://ciscoshipped.io/shipped/api-docs/build/index.html)
 - [Walkthroughs](https://ciscoshipped.io/shipped/api-docs/build/index.html#walkthroughs) : setup a project, build, deploy
 - [Twitter](https://twitter.com/projectshipped)
-
-
-### Cisco Zeus (Cloud offering, Restricted Beta)
-
-Zeus is a Cloud-based Logging and Monitoring Service. Use the Zeus API or standard agents (such as fluent, syslog, logstash, collectd, statsd) to push your logs and metrics to Zeus.
-Interactively visualize, search or analyze your data, or query / aggregate via the Zeus API.
-
-- [Zeus Portal](http://www.ciscozeus.io/) : request access to the beta
-- [Github Repo](https://github.com/CiscoZeus) : python , ruby, java and go clients
-- [API Documentation](http://api.ciscozeus.io/) : Swagger UI
 
 
 ## Microservices
