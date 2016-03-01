@@ -76,7 +76,19 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 ## SDN - Software Defined Network APIs
 
-- ACI/APIC
+### ACI/APIC
+
+### OpenDayLight
+
+[OpenDaylight](https://www.opendaylight.org/platform-overview-beryllium), the open SDN platform, aims to make interoperable, programmable networks a reality.
+
+Why OpenDaylight ? with SDN, you can achieve network programmability and abstraction, but then comes the question of managing it.
+Via common API frameworks, OpenDayLight helps create abstractions North or South of the controller without having to look under the hood. Approaches to intent and policy to do this: ALTO, Group Based Policy and Network Intent Composition.
+
+OpenDayLight delivers the benefits of both Software Defined Networks (SDN) and Network Functions Virtualization (NFV).
+
+[Major use cases](https://www.opendaylight.org/use-cases/) include Automated / Agile / OnDemand Service Delivery and Dynamic Network Resources Optimization.
+
 
 ## Configure your network
 
