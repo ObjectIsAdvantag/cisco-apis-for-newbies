@@ -1,23 +1,29 @@
-# About
+# Everything programmable at Cisco
 
-This guide is a tentative to synthesize Cisco APIs for developers & ITPros with no to little knowledge of Cisco lines of hardware and software products.
-Started as a tribute to my "First Days Party" @Cisco Live Berlin Feb15-19 2016.
-Contributors welcome, CC BY 4.0 licence.
+This guide is a tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
+Started as a tribute to my "First Days Party" at Cisco Live Berlin Feb 15-19th 2016.
+Contributors welcome, CC BY 4.0 license.
+
+- [New to Cisco APIs](#toc_DevNet)
+- [Collaboration](#toc_Collaboration)
+- [Data & Analytics](#toc_Data)
+- [DevOps, Software Tools & Automation](#toc_DevOps)
+- [IoT](#toc_IoT)
+- [Programmable infrastructure](#toc_ProgrammableInfrastructure)
 
 
-# New to Cisco for developers ?
+# <a name="toc_DevNet"></a>New to Cisco APIs ?
 
-You definitely need to check the [DevNet portal](https://developer.cisco.com/site/devnet/home/index.gsp), the one-stop for all development related activites with/to/from/above CISCO technologies.
+You should definitely start with the [DevNet portal](https://developer.cisco.com/site/devnet/home/index.gsp), the one-stop for all development related activities with/to/from/above Cisco technologies.
 
-Take a few minutes to create your accout, it's really worth it :
-- [DevNet](https://developer.cisco.com/site/devnet/home/index.gsp): umbrella to technical resources about IoT, Cloud, Networking, Data Center, Collaboration, Analytics & Automation, Security, Services, DevOps, Microservices
-- [Learning labs](https://learninglabs.cisco.com/springboards) : step by step walkthroughs for developers, featuring live environments / sandboxes to interact with CISCO Hardware via REST APIs
+Take a few minutes to create your account, it's really worth it :
+- [DevNet](https://developer.cisco.com/site/devnet/home/index.gsp): umbrella to technical resources about IoT, Cloud Offerings, Progrommable Networks, Private & Hybrid cloud automation, Collaboration, BigData & Analytics, DevOps, DevOps, Microservices, Security
+- [Learning labs](https://learninglabs.cisco.com/springboards) : step by step walkthroughs for ITPros & developers, featuring live environments to interact with Cisco programmable products
 - [Programming foundation](https://learninglabs.cisco.com/modules/programming-found) : learn REST principles and how to call them via a User Interface, from the command line, or from code
 - [Sandbox](https://developer.cisco.com/site/devnet/sandbox/): provision various CISCO hardware and network topologies and experiment Live APIs. Environments are provisionned for your own use from 3 hours to 7 days. APIC-EM , Cisco Open SDN Controller , Jabber , Webex , Intercloud Fabric...
-- [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : Showcase of software projects built out of CISCO APIs and open technologies contributed by Cisco
+- [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : Showcase of software projects built out of Cisco APIs and open technologies contributed by Cisco
 
-
-# Collaboration APIs
+# <a name="toc_Collaboration"></a>Collaboration APIs
 
 ## Tropo
 
@@ -61,7 +67,6 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
    - Consulting team
       - [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team
 
-
 ## WebEx
 
 - [WebEx APIs](https://developer.cisco.com/site/webex-developer/develop-test/try-webex-apis/)
@@ -69,50 +74,11 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 - [WebEx Developer Program](https://developer.cisco.com/site/webex-developer/web-conferencing/program-benefits/)
 
 
-# Hardware and Network capable APIs
+# <a name="toc_Data"></a>Data & Analytics
 
-[All about Cisco networking technologies for developers](https://developer.cisco.com/networking)
+## PANDA
 
-
-## SDN - Software Defined Network APIs
-
-### ACI/APIC
-
-### OpenDayLight
-
-[OpenDaylight](https://www.opendaylight.org/) aims to make interoperable and programmable networks a reality, by delivering the benefits of Software Defined Networks (SDN) and Network Functions Virtualization (NFV) to networks of any size and scale. [Use cases](https://www.opendaylight.org/use-cases/) include Automated / Agile / OnDemand Service Delivery and Dynamic Network Resources Optimization.
-
-[How ?](https://www.opendaylight.org/platform-overview-beryllium) with SDN, you can achieve network programmability and abstraction, but then comes the question of managing it. Via common API frameworks, OpenDayLight helps create abstractions North or South of the controller without having to look under the hood. Several  intent and policy approaches to do this include ALTO, Group Based Policy and Network Intent Composition.
-
-Architecture: OpenDayLight employs a model-driven approach to describe the network, the functions to be performed on it and the resulting state or status achieved.
-- by sharing YANG data structures in a common data store and messaging infrastructure, OpenDaylight allows for fine-grained services to be created then combined together to solve more complex problems,
-- by loading in the Model Driven Service Abstraction Layer (MD-SAL) of the network controller, Services can be configured and chained together to match fluctuating needs,
-
-Network programmability: OpenDayLight includes support OpenFlow and OpenFlow extensions such as Table Type Patterns (TTP), as well as traditional protocols including NETCONF, BGP/PCEP and CAPWAP. Additionally, OpenDayLight interfaces with [OpenStack](https://drive.google.com/file/d/0B_rLr6so6DZ8bHdtQkk0Rkk2Wms/view) and Open vSwitch.
-
-Security: the platform provides a framework for Authentication, Authorization and Accounting (AAA), as well as automatic discovery and securing of network devices and controllers.
-
-- [OpenDayLight Developer Guide](https://drive.google.com/file/d/0B_rLr6so6DZ8cXRJczlJSVBzOE0/view): corresponds to the Beryllium release of OpenDayLight, Feburary 2016
-
-
-## Configure your network
-
-- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
-modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
-- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format.
-- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
-
-## Private cloud
-
-### Metapod   
-
-- [Cisco Metapod](https://developer.cisco.com/site/Metapod/) : openstack pre-configured topology operated by Cisco on your premises
-
-## Hybrid cloud
-
-- [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic
-
-# Data
+https://developer.cisco.com/site/panda/
 
 ## Cisco Zeus (Cloud offering, Restricted Beta)
 
@@ -126,7 +92,7 @@ Interactively visualize, search or analyze your data, or query / aggregate via t
 - [Zeus Blog](http://blogs.ciscozeus.io/
 
 
-# Other cool Cisco technologies for developers
+# <a name="toc_DevOps"></a>DevOps, Software Tools & Automation
 
 ## DevOps
 
@@ -159,4 +125,59 @@ MANTL reached version 1.0 in February 2016.
 The NeXt javascript framework presents network topologies via user friendly Web interactions. NeXt can display large and complex network topologies, aggregated network nodes,  traffic/path/tunnel/group visualizations and includes several layout algorithms, map overlays, and preset user friendly interactions.
 
 - [NeXt Portal](https://developer.cisco.com/site/neXt/)
-- [OpenDayLight Project Page](https://wiki.opendaylight.org/view/NeXt:Main) : NeXt can work together with the [OpenDayLight User Interface - DLUX](https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_working_with_dlux.html).
+- [OpenDayLight Project Page](https://wiki.opendaylight.org/view/NeXt:Main) : NeXt can work together with the [OpenDayLight User Interface - DLUX](https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_working_with_dlux.html)
+
+
+# <a name="toc_IoT"></a>DevOps, Software Tools & AutomationIoT
+
+
+# <a name="toc_ProgrammableInfrastructure"></a>Programmable infrastructur
+
+[DevNet Networking Portal](https://developer.cisco.com/networking): All about Cisco networking technologies for developers
+
+## Configure your network
+
+- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format
+
+- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
+modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
+
+- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
+
+- ACI/APIC
+
+## Software Defined Network (SDN) & Network Functions Virtualization (NFV)
+
+### OpenDayLight
+
+[OpenDaylight](https://www.opendaylight.org/) aims to make interoperable and programmable networks a reality, by delivering the benefits of Software Defined Networks (SDN) and Network Functions Virtualization (NFV) to networks of any size and scale. [Use cases](https://www.opendaylight.org/use-cases/) include Automated / Agile / OnDemand Service Delivery and Dynamic Network Resources Optimization.
+
+[How ?](https://www.opendaylight.org/platform-overview-beryllium) with SDN, you can achieve network programmability and abstraction, but then comes the question of managing it. Via common API frameworks, OpenDayLight helps create abstractions North or South of the controller without having to look under the hood. Several  intent and policy approaches to do this include ALTO, Group Based Policy and Network Intent Composition.
+
+Architecture: OpenDayLight employs a model-driven approach to describe the network, the functions to be performed on it and the resulting state or status achieved.
+- by sharing YANG data structures in a common data store and messaging infrastructure, OpenDaylight allows for fine-grained services to be created then combined together to solve more complex problems,
+- by loading in the Model Driven Service Abstraction Layer (MD-SAL) of the network controller, Services can be configured and chained together to match fluctuating needs,
+
+Network programmability: OpenDayLight includes support OpenFlow and OpenFlow extensions such as Table Type Patterns (TTP), as well as traditional protocols including NETCONF, BGP/PCEP and CAPWAP. Additionally, OpenDayLight interfaces with [OpenStack](https://drive.google.com/file/d/0B_rLr6so6DZ8bHdtQkk0Rkk2Wms/view) and Open vSwitch.
+
+Security: the platform provides a framework for Authentication, Authorization and Accounting (AAA), as well as automatic discovery and securing of network devices and controllers.
+
+- [OpenDayLight Developer Guide](https://drive.google.com/file/d/0B_rLr6so6DZ8cXRJczlJSVBzOE0/view): corresponds to the Beryllium release of OpenDayLight, Feburary 2016
+
+###  OPNFV
+
+https://developer.cisco.com/site/opnfv/
+
+## Private & Hybrid Cloud
+
+### OpenStack contributions from CISCO
+
+OpenDayLight, OPNFV see above
+
+### Metapod   
+
+- [Cisco Metapod](https://developer.cisco.com/site/Metapod/) : openstack pre-configured topology operated by Cisco on your premises
+
+### Cloud infrastructure Management
+
+- [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic (On-premises Openstack, Cisco Metapod, Amazon AWS, Microsoft Azure)
