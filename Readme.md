@@ -88,13 +88,18 @@ Architecture: OpenDayLight employs a model-driven approach to describe the netwo
 - by sharing YANG data structures in a common data store and messaging infrastructure, OpenDaylight allows for fine-grained services to be created then combined together to solve more complex problems,
 - by loading in the Model Driven Service Abstraction Layer (MD-SAL) of the network controller, Services can be configured and chained together to match fluctuating needs,
 
-Network programmability: OpenDayLight includes support OpenFlow and OpenFlow extensions such as Table Type Patterns (TTP), as well as traditional protocols including NETCONF, BGP/PCEP and CAPWAP. Additionally, OpenDayLight interfaces with OpenStack and Open vSwitch.
+Network programmability: OpenDayLight includes support OpenFlow and OpenFlow extensions such as Table Type Patterns (TTP), as well as traditional protocols including NETCONF, BGP/PCEP and CAPWAP. Additionally, OpenDayLight interfaces with [OpenStack](https://drive.google.com/file/d/0B_rLr6so6DZ8bHdtQkk0Rkk2Wms/view) and Open vSwitch.
 
 Security: the platform provides a framework for Authentication, Authorization and Accounting (AAA), as well as automatic discovery and securing of network devices and controllers.
 
+- [OpenDayLight Developer Guide](https://drive.google.com/file/d/0B_rLr6so6DZ8cXRJczlJSVBzOE0/view): corresponds to the Beryllium release of OpenDayLight, Feburary 2016
+
+
 ## Configure your network
 
-- [RESTCONF](http://sdntutorials.com/what-is-restconf)
+- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
+modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
+- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format.
 - [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
 
 ## Private cloud
@@ -151,4 +156,7 @@ MANTL reached version 1.0 in February 2016.
 
 ### NeXt
 
-- [NeXt](https://developer.cisco.com/site/neXt/)
+The NeXt javascript framework presents network topologies via user friendly Web interactions. NeXt can display large and complex network topologies, aggregated network nodes,  traffic/path/tunnel/group visualizations and includes several layout algorithms, map overlays, and preset user friendly interactions.
+
+- [NeXt Portal](https://developer.cisco.com/site/neXt/)
+- [OpenDayLight Project Page](https://wiki.opendaylight.org/view/NeXt:Main) : NeXt can work together with the [OpenDayLight User Interface - DLUX](https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_working_with_dlux.html).
