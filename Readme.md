@@ -80,15 +80,17 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 
 ### OpenDayLight
 
-[OpenDaylight](https://www.opendaylight.org/platform-overview-beryllium), the open SDN platform, aims to make interoperable, programmable networks a reality.
+[OpenDaylight](https://www.opendaylight.org/) aims to make interoperable and programmable networks a reality, by delivering the benefits of Software Defined Networks (SDN) and Network Functions Virtualization (NFV) to networks of any size and scale. [Use cases](https://www.opendaylight.org/use-cases/) include Automated / Agile / OnDemand Service Delivery and Dynamic Network Resources Optimization.
 
-Why OpenDaylight ? with SDN, you can achieve network programmability and abstraction, but then comes the question of managing it.
-Via common API frameworks, OpenDayLight helps create abstractions North or South of the controller without having to look under the hood. Approaches to intent and policy to do this: ALTO, Group Based Policy and Network Intent Composition.
+[How ?](https://www.opendaylight.org/platform-overview-beryllium) with SDN, you can achieve network programmability and abstraction, but then comes the question of managing it. Via common API frameworks, OpenDayLight helps create abstractions North or South of the controller without having to look under the hood. Several  intent and policy approaches to do this include ALTO, Group Based Policy and Network Intent Composition.
 
-OpenDayLight delivers the benefits of both Software Defined Networks (SDN) and Network Functions Virtualization (NFV).
+Architecture: OpenDayLight employs a model-driven approach to describe the network, the functions to be performed on it and the resulting state or status achieved.
+- by sharing YANG data structures in a common data store and messaging infrastructure, OpenDaylight allows for fine-grained services to be created then combined together to solve more complex problems,
+- by loading in the Model Driven Service Abstraction Layer (MD-SAL) of the network controller, Services can be configured and chained together to match fluctuating needs,
 
-[Major use cases](https://www.opendaylight.org/use-cases/) include Automated / Agile / OnDemand Service Delivery and Dynamic Network Resources Optimization.
+Network programmability: OpenDayLight includes support OpenFlow and OpenFlow extensions such as Table Type Patterns (TTP), as well as traditional protocols including NETCONF, BGP/PCEP and CAPWAP. Additionally, OpenDayLight interfaces with OpenStack and Open vSwitch.
 
+Security: the platform provides a framework for Authentication, Authorization and Accounting (AAA), as well as automatic discovery and securing of network devices and controllers.
 
 ## Configure your network
 
