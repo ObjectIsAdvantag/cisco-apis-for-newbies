@@ -1,14 +1,14 @@
 # Everything programmable at Cisco
 
-This guide is a opinionated tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
+This guide is an opinionated tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
 Started as a tribute to my "First Days Party" at Cisco Live Berlin Feb 15-19th 2016.
 Contributors welcome, CC BY 4.0 license.
 
 - [New to Cisco APIs](#toc_DevNet)
 - [Collaboration](#toc_Collaboration): [Spark](#toc_Spark), [Tropo](#toc_Tropo), [WebEx](#toc_WebEx)
-- [Data & Analytics](#toc_Data)
+- [Data & Analytics](#toc_Data): [Data in Motion](#toc_DMO)
 - [DevOps, Software Tools & Automation](#toc_DevOps)
-- [IoT](#toc_IoT)
+- [IoT](#toc_IoT): [Data in Motion](#toc_DMO)
 - [Programmable infrastructure](#toc_ProgrammableInfrastructure)
 
 
@@ -38,12 +38,7 @@ Data center facilities in the US, [coming to Europe by June 2016](https://medium
 - [Pricing](https://www.tropo.com/pricing/)
 - [Twitter](https://twitter.com/Tropo)
    - [changes](https://twitter.com/tropochanges) : Follow to see what [changes](changes.tropo.com) get made to Tropo
-   - Technical team
-      - [adam](https://twitter.com/akalsey)
-      - [diggz](https://twitter.com/JohnnyDiggz)
-      - [marcello](https://twitter.com/marchfederico)
-      - [paul](https://twitter.com/paultodwyer)
-      - [phil](https://twitter.com/PBellanti)
+   - Technical team: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti)
 
 
 ## <a name="toc_Spark"></a>Cisco Spark
@@ -128,7 +123,32 @@ The NeXt javascript framework presents network topologies via user friendly Web 
 - [OpenDayLight Project Page](https://wiki.opendaylight.org/view/NeXt:Main) : NeXt can work together with the [OpenDayLight User Interface - DLUX](https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_working_with_dlux.html)
 
 
-# <a name="toc_IoT"></a>DevOps, Software Tools & AutomationIoT
+# <a name="toc_IoT"></a>IoT
+
+- [DevNet IoT Central](https://developer.cisco.com/site/internet-of-things/)
+
+## CMX Mobility Services (Released)
+
+Triangulate device location using wifi, and track location via device's mac address.
+
+- [DevNet CMX Mobility Services]()
+- Use Cases: coupons, promotions, push notifications
+
+## <a name="toc_DMO"></a>Data in Motion (Preview)
+
+Over the next 7-10 years the number of smart objects will grow to be over 50 billion. To overcome the expected deluge of data, Data in Motion (DMo) is a piece of software that provides data management and first-order analysis at the edge (ie, on the network components the IoT devices are attached to). By distributing and optimizing the processing and storage of data on the edge, DMO ensure yours apps can manage flows of Data at scale.
+
+As of March 2016, Data in Motion is supported on Cisco UCS C-series and E-series
+
+- [DevNet Data In Motion Central](https://developer.cisco.com/site/data-in-motion/)
+- [Big Picture](https://developer.cisco.com/site/data-in-motion/discover/overview/)
+- [REST API](https://developer.cisco.com/site/data-in-motion/documents/api-reference/index.gsp#restful-api) : restful-api with WebDAV extensions to manage
+- [Reference guide](https://developer.cisco.com/fileMedia/download/d3b70460-0f0a-4ff6-954a-7066bc4982c0)
+- Uses cases:
+   - Energy Utility Companies Process: 1.1 BILLION Data Points (.5TB) per Day
+   - A Large Offshore Field Produces: 0.75TB of Data Weekly
+   - An Airplane: 10TB of Data for Every 30 Minutes of Flight
+
 
 
 # <a name="toc_ProgrammableInfrastructure"></a>Programmable infrastructur
