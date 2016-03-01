@@ -1,11 +1,11 @@
 # Everything programmable at Cisco
 
-This guide is a tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
+This guide is a opinionated tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
 Started as a tribute to my "First Days Party" at Cisco Live Berlin Feb 15-19th 2016.
 Contributors welcome, CC BY 4.0 license.
 
 - [New to Cisco APIs](#toc_DevNet)
-- [Collaboration](#toc_Collaboration)
+- [Collaboration](#toc_Collaboration): [Spark](#toc_Spark), [Tropo](#toc_Tropo), [WebEx](#toc_WebEx)
 - [Data & Analytics](#toc_Data)
 - [DevOps, Software Tools & Automation](#toc_DevOps)
 - [IoT](#toc_IoT)
@@ -23,9 +23,9 @@ Take a few minutes to create your account, it's really worth it :
 - [Sandbox](https://developer.cisco.com/site/devnet/sandbox/): provision various CISCO hardware and network topologies and experiment Live APIs. Environments are provisionned for your own use from 3 hours to 7 days. APIC-EM , Cisco Open SDN Controller , Jabber , Webex , Intercloud Fabric...
 - [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : Showcase of software projects built out of Cisco APIs and open technologies contributed by Cisco
 
-# <a name="toc_Collaboration"></a>Collaboration APIs
+# <a name="toc_Collaboration"></a>Collaboration
 
-## Tropo
+## <a name="toc_Tropo"></a>Tropo
 
 Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, and by integration, understand both ways :
 your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages.
@@ -46,7 +46,7 @@ Data center facilities in the US, [coming to Europe by June 2016](https://medium
       - [phil](https://twitter.com/PBellanti)
 
 
-## Cisco Spark
+## <a name="toc_Spark"></a>Cisco Spark
 
 Since March 2015, [Cisco Spark](https://www.ciscospark.com/) is the all-in-one Cloud Collaboration platform for the extended enterprise.
 In short, Cisco Spark is a multi-client platform (Phone, Mac, Windows apps), backed by Cloud Collaboration Services (persistent chat rooms, WebRTC video conferencing), enabling 1-1, 1-few, 1-many communication.
@@ -67,7 +67,7 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
    - Consulting team
       - [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team
 
-## WebEx
+## <a name="toc_WebEx"></a>WebEx
 
 - [WebEx APIs](https://developer.cisco.com/site/webex-developer/develop-test/try-webex-apis/)
 - [DevNet Sandbox](https://developer.cisco.com/site/devnet/sandbox/available-labs/comm-collab/) : explore Cisco WebEx API capabilities and start developing your proof-of-concept solution
