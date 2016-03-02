@@ -1,16 +1,16 @@
-# Everything programmable at Cisco
+# Everything API-enabled at Cisco
 
-This guide is an opinionated tentative to synthesize [Cisco APIs for developers & ITPros](https://developer.cisco.com/site/devnet/index/) with No to little knowledge of Cisco hardware and software products.
+This guide is an opinionated tentative to synthesize [Cisco APIs for developers & network engineers](https://developer.cisco.com/site/devnet/index/) with no to little knowledge of Cisco hardware, software and solutions.
 Started as a tribute to my "First Days Party" at Cisco Live Berlin Feb 15-19th 2016.
 Contributors welcome, CC BY 4.0 license.
 
 - [New to Cisco APIs](#toc_DevNet)
-- [Collaboration](#toc_Collaboration): [Spark](#toc_Spark), [Tropo](#toc_Tropo), [WebEx](#toc_WebEx)
-- [Data & Analytics](#toc_Data): [Data in Motion](#toc_DMO)
+- [Collaboration](#toc_Collaboration)
+- [Data & Analytics](#toc_Data): [Data in Motion](#toc_DMO),
 - [DevOps, Software Tools & Automation](#toc_DevOps)
 - [IoT](#toc_IoT): [Data in Motion](#toc_DMO)
-- [Programmable infrastructure](#toc_ProgrammableInfrastructure)
-
+- [Private & Hybrid Cloud](#toc_PrivateCloud)
+- [Programmable networks](#toc_Networking)
 
 # <a name="toc_DevNet"></a>New to Cisco APIs ?
 
@@ -36,9 +36,9 @@ Data center facilities in the US, [coming to Europe by June 2016](https://medium
 - [Github Samples](https://github.com/tropo/tropo-samples)
 - [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages.
 - [Pricing](https://www.tropo.com/pricing/)
-- [Twitter](https://twitter.com/Tropo)
-   - [changes](https://twitter.com/tropochanges) : Follow to see what [changes](changes.tropo.com) get made to Tropo
-   - Technical team: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti)
+- [Twitter @Tropo](https://twitter.com/Tropo)
+   - [@TropoChanges](https://twitter.com/tropochanges) : get realtime insights to Tropo Cloud
+   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [steve](https://twitter.com/ObjectIsAdvantag)
 
 
 ## <a name="toc_Spark"></a>Cisco Spark
@@ -52,24 +52,24 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 - [Spark APIs](https://developer.ciscospark.com/getting-started.html): REST APIs interactive documentation
 - [Spark for developers](https://developer.cisco.com/site/spark/): the DevNet umbrella for all Spark related contents for developers
 - [Learning labs](https://developer.cisco.com/site/spark/): Rooms and messages, Authentication, WebHooks
-- [Twitter](https://twitter.com/ciscosparkdev)
-   - Technical team
-      - [adam](https://twitter.com/akalsey)
-      - [diggz](https://twitter.com/JohnnyDiggz)
-      - [marcello](https://twitter.com/marchfederico)
-      - [paul](https://twitter.com/paultodwyer)
-      - [phil](https://twitter.com/PBellanti)
-   - Consulting team
-      - [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team
+- [Twitter @CiscoSparkDev](https://twitter.com/ciscosparkdev)
+   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [steve](https://twitter.com/ObjectIsAdvantag)
+   - consulting: [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team
 
 ## <a name="toc_WebEx"></a>WebEx
 
-- [WebEx APIs](https://developer.cisco.com/site/webex-developer/develop-test/try-webex-apis/)
+- [WebEx APIs](https://developer.cisco.Fcom/site/webex-developer/develop-test/try-webex-apis/)
 - [DevNet Sandbox](https://developer.cisco.com/site/devnet/sandbox/available-labs/comm-collab/) : explore Cisco WebEx API capabilities and start developing your proof-of-concept solution
 - [WebEx Developer Program](https://developer.cisco.com/site/webex-developer/web-conferencing/program-benefits/)
 
 
 # <a name="toc_Data"></a>Data & Analytics
+
+Digitalization & IoT are challenging enterprises to seek new ways to manage and leverage their data :
+
+- [Cisco Data and Analytics solutions]()
+- People : David Besemer, CTO of Data Virtualization at Cisco
+
 
 ## PANDA
 
@@ -134,7 +134,7 @@ Triangulate device location using wifi, and track location via device's mac addr
 - [DevNet CMX Mobility Services]()
 - Use Cases: coupons, promotions, push notifications
 
-## <a name="toc_DMO"></a>Data in Motion (Preview)
+## <a name="toc_DMO"></a>Data in Motion (Released)
 
 Over the next 7-10 years the number of smart objects will grow to be over 50 billion. To overcome the expected deluge of data, Data in Motion (DMo) is a piece of software that provides data management and first-order analysis at the edge (ie, on the network components the IoT devices are attached to). By distributing and optimizing the processing and storage of data on the edge, DMO ensure yours apps can manage flows of Data at scale.
 
@@ -151,22 +151,9 @@ As of March 2016, Data in Motion is supported on Cisco UCS C-series and E-series
 
 
 
-# <a name="toc_ProgrammableInfrastructure"></a>Programmable infrastructur
+# <a name="toc_PrivateCloud"></a>Private & Hybrid Cloud
 
-[DevNet Networking Portal](https://developer.cisco.com/networking): All about Cisco networking technologies for developers
-
-## Configure your network
-
-- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format
-
-- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
-modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
-
-- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
-
-- ACI/APIC
-
-## Software Defined Network (SDN) & Network Functions Virtualization (NFV)
+## OpenStack contributions
 
 ### OpenDayLight
 
@@ -188,16 +175,48 @@ Security: the platform provides a framework for Authentication, Authorization an
 
 https://developer.cisco.com/site/opnfv/
 
-## Private & Hybrid Cloud
 
-### OpenStack contributions from CISCO
+## Metapod
 
-OpenDayLight, OPNFV see above
+Cisco Metapod is a production-ready private cloud infrastructure based on OpenStack.
+Metapod  is custom-engineered, deployed, and remotely operated 24x7x365 by Cisco.
+Cisco provides platform and security updates, operates the platform with 99.99% SLA guarantees and supports enterprise capacity planning requirements.
 
-### Metapod   
+- [Cisco Metapod](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/index.html)
+- [DevNet Portal](https://developer.cisco.com/site/Metapod/)
+- [API compatibility](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/api-compatibility.html): 100% API coverage for computing and storage, OpenStack APIs, AWS compatible APIs for core services, Native API support to automation and tooling platforms (Chef, Puppet, Salt, Ansible, Fog, libcloud, jclouds...) and many more)
 
-- [Cisco Metapod](https://developer.cisco.com/site/Metapod/) : openstack pre-configured topology operated by Cisco on your premises
+## Hybrid cloud
 
-### Cloud infrastructure Management
+### CliQr
+
+CliQr CloudCenter is a platform to model, deploy and manage the entire lifecycle of applications onto 15 public (Amazon Web Services, Google Compute Platform, Microsoft Azure, Rackspace, IBM, NTT) and private cloud environments (VMWare, OpenStack, Cisco UCS director, )
+
+- [Cliqr](http://www.cliqr.com/platform/):
+- [CloudCenter API](http://docs.cliqr.com/display/40API/CloudCenter+API+Overview)
+- [Acquisition announcement](http://newsroom.cisco.com/press-release-content?type=webcontent&articleId=1750092)
 
 - [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic (On-premises Openstack, Cisco Metapod, Amazon AWS, Microsoft Azure)
+
+## Cloud native platform
+
+The [CloudFoundry PaaS](http://pivotal.io/cisco) - installed onto [Cisco Metapod](#toc_Metapod) private cloud infrastructure - enables enterprises to rapidly deploy new applications using any language/runtime and leveraging various backing services.
+
+- [Peder Ulander](pulander@cisco.com): Cisco’s VP of Cloud and Managed Services
+
+# <a name="toc_Networking"></a>Programmable networks
+
+[DevNet Networking Portal](https://developer.cisco.com/networking): all about Cisco network programming for developers network engineers
+
+## Configure your network
+
+- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format
+
+- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
+modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
+
+- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
+
+## Software Defined Network (SDN) & Network Functions Virtualization (NFV)
+
+- ACI/APIC
