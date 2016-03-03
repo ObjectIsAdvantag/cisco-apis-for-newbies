@@ -73,7 +73,7 @@ Instant Connect is a push-to-talk (PTT) communication product for Android device
 
 # <a name="toc_Data"></a>Data & Analytics
 
-Digitalization & IoT are challenging when it comes to data: how to store, gather, analyse, act on data. Several strategies are emerging: process data straight from the [device or app (Data In Motion)](#toc_DataInMotion"), at the [network edge (Distributed Network Analytics)](#toc_DistributedNetworkAnalytics), or on a Big Data platform, whether [on-premises (PaNDA)](#toc_PaNDA) or [as a Cloud service (Zeus)](#toc_Zeus)
+Digitalization & IoT are challenging when it comes to data: how to store, gather, analyse, act on data. Cisco provides solutions for the emerging strategies: process data straight on the [device or app](#toc_DataInMotion"), at the [network edge](#toc_DistributedNetworkAnalytics), via an [all-in-one enterprise solution](#toc_CiscoInformationServer) and/or via a Big Data platform, which can sit either [on-premises](#toc_PaNDA) or as a [as a Cloud service (Zeus)](#toc_Zeus).
 
 - [Cisco Data and Analytics solutions](http://www.cisco.com/c/en/us/products/analytics-automation-software/data-analytics-software/index.html#~tab-products)
 - [Twitter @CiscoAnalytics](https://twitter.com/CiscoAnalytics)
@@ -88,19 +88,34 @@ Analytics Agents reside on the devices, as linux containerized apps, collect dat
 
 - [Documentation](http://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/analytics/1-1-1/quick_start/guide/ConnectedStreamingAnalytics-1-1-1-QuickStartGuide.pdf)
 
+## <a name="toc_CiscoInformationServer"></a>CiscoInformationServer
+
+Data Integration = Cisco Data Virtualization Platform = CIS
+
+Cisco Information Server (CIS) forms the core of the [Cisco Data Virtualization Platform](http://www.compositesw.com/products-services/).
+
+At build time, the development environment helps create views and data services  from multiple datasource with transformation functions.  Standard adapters and automated code generators are leveraged.
+At run time, the query engine accesses, federates, abstracts and delivers data to business applications.
+
+- [Product Portal](http://www.compositesw.com/products-services/information-server/)
+   - [Jan 2016 announcement](http://blogs.cisco.com/analytics-automation/announcing-new-release-of-cisco-data-virtualization-supports-more-cloud-saas-and-social-media-data-sources)
+- [Tool in action](https://www.youtube.com/watch?v=5mV_Lk_i288)
+- [DevNet Central](https://developer.cisco.com/site/data-virtualization/discover/overview/)
+- [DevNet Sandbox](ttps://devnetsandbox.cisco.com/RM/Diagram/Index/f9d74247-a271-4a8f-97a1-56ebd270ccbb?diagramType=Topology)
+
 
 ## <a name="toc_PaNDA"></a>PaNDA (to be opensourced in March 2016)
 
-PaNDA is a simple, scalable and open platform for networks analytics, including operational intelligence (OSS) and business intelligence applications (BSS), designed to scale up to consume millions of messages per second.
+PaNDA is a networks analytics platform for both raw-operational and business-consolidation metrics, designed to scale up to consume millions of messages per second.
 
-The platform is based on open source technologies centered on Apache Hadoop and Kafka, main processing workhorses are Apache Spark and Spark Streaming. Ingested data should be encapsulated in an Avro schema and published on a pre-defined Kafka topics.
+The platform is based on open source technologies centered on Apache Hadoop and Kafka, main processing workhorses are Apache Spark and Spark Streaming.
+Ingested data are to be encapsulated in an Avro schema and published on pre-defined Kafka topics.
 
 - [Cisco PaNDA](http://panda.cisco.com/)
 - [DevNet Portal](https://developer.cisco.com/site/panda/)
 - [Data preparation](http://panda.cisco.com/documentation/20-datapreparation)
 - UseCases : Network Service Assurance, IoT
 - [DevNet Learning lab](https://learninglabs.cisco.com/labs/tags/PaNDA)
-
 
 ## <a name="toc_Zeus"></a>Cisco Zeus (Cloud offering, Restricted Beta)
 
@@ -116,31 +131,31 @@ Interactively visualize, search or analyze your data, or query / aggregate via t
 
 # <a name="toc_DevOps"></a>DevOps, Software Tools & Automation
 
-## Operating Systems
+## Cisco Operating Systems
 
-Cisco 's Networking operating systems, operating on millions of active systems, ranging from the small home office router to the core systems of the world's largest service provider networks.
+Cisco Networking operating systems, operating on millions of active systems, ranging from the small home office router to the core systems of the world's largest service provider networks.
 
-### Cisco IOS (closed source, current release: 15)
+### IOS (closed source, current release: 15)
 
 - [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-software-releases-listing.html)
 - [IOS capabilities](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-technologies/index.html): IPv6, IP Multicast, IP Routing, IP Mobility, Instrumentation, MPLS, Security, High Availability, QoS, VPN
 
-### Cisco IOS-XR (closed source, current release: 5.1)
+### IOS-XR (closed source, current release: 5.1)
 
 - [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html); Modular and fully distributed network operating system  for service providers
 - [Realtime Monitoring @DevNet](https://developer.cisco.com/site/ios-xr/)
 
-### Cisco IOS-XE (closed source, current release: 3)
+### IOS-XE (closed source, current release: 3)
 
 - [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xe/index.html): Supports next-generation platforms, Runs as a single daemon within a modern Linux operating system
 
-### Cisco IOx
+### IOx
 
 IOx brings together Cisco IOS and Linux, giving the opportunity to deploy Linux applications on edge IOS network devices. Use cases: create IoT applications such as data aggregation, control systems, access control and have them run on the edge.
 
 - [DevNet Central](https://developer.cisco.com/site/iox/technical-overview/)
 
-### Cisco NX-OS
+### NX-OS
 
 Network operating system for the Nexus-series and MDS-series Ethernet switches.
 
@@ -210,7 +225,7 @@ As of March 2016, Data in Motion is supported on Cisco UCS C-series and E-series
 
 ## Jasper (Acquisition announced Feb 2016)
 
-The Jasper IoT service platform - Control Center - automates your IoT services across connected devices : launch, manage, and monetize IoT services, over more than 100 countries thanks to Jasper production-ready partnerships with more than 25 Mobile operators.
+The Jasper IoT service platform - Control Center - automates IoT services across connected devices. The platform helps - more than 3500 enterprises - launch, manage, and monetize IoT services worldwide, thanks to Jasper production-ready partnerships with 27 Mobile operators.
 
 - [Jasper Corporate Portal](http://www.jasper.com/)
 - [Acquisition](http://newsroom.cisco.com/press-release-content?articleId=1741680)
