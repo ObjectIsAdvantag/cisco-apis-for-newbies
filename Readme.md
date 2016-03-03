@@ -73,12 +73,12 @@ Instant Connect is a push-to-talk (PTT) communication product for Android device
 
 # <a name="toc_Data"></a>Data & Analytics
 
-Digitalization & IoT are challenging enterprises to seek new ways to manage and leverage their data: store, gather, analyse, act.
+Digitalization & IoT are challenging when it comes to data: how to store, gather, analyse, act on data. Several strategies are emerging: process data straight from the [device or app (Data In Motion)](#toc_DataInMotion"), at the [network edge (Distributed Network Analytics)](#toc_DistributedNetworkAnalytics), or on a Big Data platform, whether [on-premises (PaNDA)](#toc_PaNDA) or [as a Cloud service (Zeus)](#toc_Zeus)
 
 - [Cisco Data and Analytics solutions](http://www.cisco.com/c/en/us/products/analytics-automation-software/data-analytics-software/index.html#~tab-products)
 - [Twitter @CiscoAnalytics](https://twitter.com/CiscoAnalytics)
 
-## Distributed Network analytics
+## <a name="toc_DistributedNetworkAnalytics"></a>Distributed Network analytics
 
 Orchestrate the generation and collection of telemetry data inside a network, and process streaming analytics. Strategy here is to bring the analytics processing of close as possible to the Data.
 
@@ -89,7 +89,7 @@ Analytics Agents reside on the devices, as linux containerized apps, collect dat
 - [Documentation](http://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/analytics/1-1-1/quick_start/guide/ConnectedStreamingAnalytics-1-1-1-QuickStartGuide.pdf)
 
 
-## PaNDA (to be opensourced in March 2016)
+## <a name="toc_PaNDA"></a>PaNDA (to be opensourced in March 2016)
 
 PaNDA is a simple, scalable and open platform for networks analytics, including operational intelligence (OSS) and business intelligence applications (BSS), designed to scale up to consume millions of messages per second.
 
@@ -102,7 +102,7 @@ The platform is based on open source technologies centered on Apache Hadoop and 
 - [DevNet Learning lab](https://learninglabs.cisco.com/labs/tags/PaNDA)
 
 
-## Cisco Zeus (Cloud offering, Restricted Beta)
+## <a name="toc_Zeus"></a>Cisco Zeus (Cloud offering, Restricted Beta)
 
 Zeus is a Cloud-based Logging and Monitoring Service. Use the Zeus API or standard agents (such as fluent, syslog, logstash, collectd, statsd) to push your logs and metrics to Zeus.
 Interactively visualize, search or analyze your data, or query / aggregate via the Zeus API.
@@ -193,7 +193,7 @@ Triangulate device location using wifi, and track location via device's mac addr
 - [DevNet CMX Mobility Services]()
 - Use Cases: coupons, promotions, push notifications
 
-## <a name="toc_DMO"></a>Data in Motion (Released)
+## <a name="toc_DataInMotion"></a>Data in Motion (Released)
 
 Over the next 7-10 years the number of smart objects will grow to be over 50 billion. To overcome the expected deluge of data, Data in Motion (DMo) is a piece of software that provides data management and first-order analysis at the edge (ie, on the network components the IoT devices are attached to). By distributing and optimizing the processing and storage of data on the edge, DMO ensure yours apps can manage flows of Data at scale.
 
