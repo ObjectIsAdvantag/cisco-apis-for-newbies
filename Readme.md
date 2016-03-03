@@ -8,7 +8,7 @@ Contributors welcome, CC BY 4.0 license.
 - [Collaboration](#toc_Collaboration)
 - [Data & Analytics](#toc_Data)
 - [DevOps, Software Tools & Automation](#toc_DevOps)
-- [IoT](#toc_IoT): [Data in Motion](#toc_DMO)
+- [IoT](#toc_IoT)
 - [Private & Hybrid Cloud](#toc_PrivateCloud)
 - [Programmable networks](#toc_Networking)
 
@@ -63,6 +63,13 @@ The overall Cisco Spark platform can be managed via [REST APIs](https://develope
 - [DevNet Sandbox](https://developer.cisco.com/site/devnet/sandbox/available-labs/comm-collab/) : explore Cisco WebEx API capabilities and start developing your proof-of-concept solution
 - [WebEx Developer Program](https://developer.cisco.com/site/webex-developer/web-conferencing/program-benefits/)
 
+## <a name="toc_InstantConnect"></a>Cisco Instant Connect
+
+Instant Connect is a push-to-talk (PTT) communication product for Android devices & Cisco Wireless IP Phones: create instant group and private audio connectivity and collaboration, while saving money compared to carrier-based PTT services.
+
+- [DevNet Central](https://developer.cisco.com/site/cisco-instant-connect/)
+- [API documentation](http://www.cisco.com/c/en/us/td/docs/interoperability_systems/c_ipics/461/api/guide/api461/restfunc.html) : WebServices and REST API Cisco IP Interoperability and Collaboration System (IPICS) release 4.6(x) application programming interface
+(API)
 
 # <a name="toc_Data"></a>Data & Analytics
 
@@ -72,7 +79,7 @@ Digitalization & IoT are challenging enterprises to seek new ways to manage and 
 - People : David Besemer, CTO of Data Virtualization at Cisco
 
 
-## PaNDA (opensource planned in March 2016)
+## PaNDA (to be opensourced in March 2016)
 
 PaNDA is a simple, scalable and open platform for networks analytics, including operational intelligence (OSS) and business intelligence applications (BSS), designed to scale up to consume millions of messages per second.
 
@@ -244,6 +251,8 @@ Network programmability: OpenDayLight includes support OpenFlow and OpenFlow ext
 Security: the platform provides a framework for Authentication, Authorization and Accounting (AAA), as well as automatic discovery and securing of network devices and controllers.
 
 - [OpenDayLight Developer Guide](https://drive.google.com/file/d/0B_rLr6so6DZ8cXRJczlJSVBzOE0/view): corresponds to the Beryllium release of OpenDayLight, Feburary 2016
+- [Twitter](https://twitter.com/OpenDaylightSDN)
+
 
 ###  OPNFV
 
