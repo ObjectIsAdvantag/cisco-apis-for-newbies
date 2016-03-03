@@ -73,10 +73,20 @@ Instant Connect is a push-to-talk (PTT) communication product for Android device
 
 # <a name="toc_Data"></a>Data & Analytics
 
-Digitalization & IoT are challenging enterprises to seek new ways to manage and leverage their data :
+Digitalization & IoT are challenging enterprises to seek new ways to manage and leverage their data: store, gather, analyse, act.
 
-- [Cisco Data and Analytics solutions]()
-- People : David Besemer, CTO of Data Virtualization at Cisco
+- [Cisco Data and Analytics solutions](http://www.cisco.com/c/en/us/products/analytics-automation-software/data-analytics-software/index.html#~tab-products)
+- [Twitter @CiscoAnalytics](https://twitter.com/CiscoAnalytics)
+
+## Distributed Network analytics
+
+Orchestrate the generation and collection of telemetry data inside a network, and process streaming analytics. Strategy here is to bring the analytics processing of close as possible to the Data.
+
+The platform is model-driven, open and modular, and comes with 2 components.
+On top of a network controller (APIC-EM or OpenDayLight), the Analytics controller expands a YANG-based Analytics model, deploys the configuration to the agents, then collects data and correlates among agents.
+Analytics Agents reside on the devices, as linux containerized apps, collect data and embedd the Connected Streaming Analytics (CSA) software to ensure local data processing.
+
+- [Documentation](http://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/analytics/1-1-1/quick_start/guide/ConnectedStreamingAnalytics-1-1-1-QuickStartGuide.pdf)
 
 
 ## PaNDA (to be opensourced in March 2016)
@@ -105,6 +115,38 @@ Interactively visualize, search or analyze your data, or query / aggregate via t
 
 
 # <a name="toc_DevOps"></a>DevOps, Software Tools & Automation
+
+## Operating Systems
+
+Cisco 's Networking operating systems, operating on millions of active systems, ranging from the small home office router to the core systems of the world's largest service provider networks.
+
+### Cisco IOS (closed source, current release: 15)
+
+- [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-software-releases-listing.html)
+- [IOS capabilities](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-technologies/index.html): IPv6, IP Multicast, IP Routing, IP Mobility, Instrumentation, MPLS, Security, High Availability, QoS, VPN
+
+### Cisco IOS-XR (closed source, current release: 5.1)
+
+- [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html); Modular and fully distributed network operating system  for service providers
+- [Realtime Monitoring @DevNet](https://developer.cisco.com/site/ios-xr/)
+
+### Cisco IOS-XE (closed source, current release: 3)
+
+- [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xe/index.html): Supports next-generation platforms, Runs as a single daemon within a modern Linux operating system
+
+### Cisco IOx
+
+IOx brings together Cisco IOS and Linux, giving the opportunity to deploy Linux applications on edge IOS network devices. Use cases: create IoT applications such as data aggregation, control systems, access control and have them run on the edge.
+
+- [DevNet Central](https://developer.cisco.com/site/iox/technical-overview/)
+
+### Cisco NX-OS
+
+Network operating system for the Nexus-series and MDS-series Ethernet switches.
+
+- [Product Portal](http://www.cisco.com/c/en/us/products/ios-nx-os-software/nx-os/index.html)
+- [Open NX-OS](https://opennxos.cisco.com/public/learn): software suite that exposes APIs, data models, and programmatic constructs, introduced from NX-OS release 7.
+
 
 ## DevOps
 
