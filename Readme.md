@@ -88,17 +88,14 @@ Analytics Agents reside on the devices, as linux containerized apps, collect dat
 
 - [Documentation](http://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/analytics/1-1-1/quick_start/guide/ConnectedStreamingAnalytics-1-1-1-QuickStartGuide.pdf)
 
-## <a name="toc_CiscoInformationServer"></a>CiscoInformationServer
-
-Data Integration = Cisco Data Virtualization Platform = CIS
+## <a name="toc_CiscoInformationServer"></a>Cisco Information Server
 
 Cisco Information Server (CIS) forms the core of the [Cisco Data Virtualization Platform](http://www.compositesw.com/products-services/).
 
 At build time, the development environment helps create views and data services  from multiple datasource with transformation functions.  Standard adapters and automated code generators are leveraged.
 At run time, the query engine accesses, federates, abstracts and delivers data to business applications.
 
-- [Product Portal](http://www.compositesw.com/products-services/information-server/)
-   - [Jan 2016 announcement](http://blogs.cisco.com/analytics-automation/announcing-new-release-of-cisco-data-virtualization-supports-more-cloud-saas-and-social-media-data-sources)
+- [Product Portal](http://www.compositesw.com/products-services/information-server/): [Jan 2016 announcement](http://blogs.cisco.com/analytics-automation/announcing-new-release-of-cisco-data-virtualization-supports-more-cloud-saas-and-social-media-data-sources)
 - [Tool in action](https://www.youtube.com/watch?v=5mV_Lk_i288)
 - [DevNet Central](https://developer.cisco.com/site/data-virtualization/discover/overview/)
 - [DevNet Sandbox](ttps://devnetsandbox.cisco.com/RM/Diagram/Index/f9d74247-a271-4a8f-97a1-56ebd270ccbb?diagramType=Topology)
