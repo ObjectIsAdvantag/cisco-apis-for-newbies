@@ -72,9 +72,18 @@ Digitalization & IoT are challenging enterprises to seek new ways to manage and 
 - People : David Besemer, CTO of Data Virtualization at Cisco
 
 
-## PANDA
+## PaNDA (opensource planned in March 2016)
 
-https://developer.cisco.com/site/panda/
+PaNDA is a simple, scalable and open platform for networks analytics, including operational intelligence (OSS) and business intelligence applications (BSS), designed to scale up to consume millions of messages per second.
+
+The platform is based on open source technologies centered on Apache Hadoop and Kafka, main processing workhorses are Apache Spark and Spark Streaming. Ingested data should be encapsulated in an Avro schema and published on a pre-defined Kafka topics.
+
+- [Cisco PaNDA](http://panda.cisco.com/)
+- [DevNet Portal](https://developer.cisco.com/site/panda/)
+- [Data preparation](http://panda.cisco.com/documentation/20-datapreparation)
+- UseCases : Network Service Assurance, IoT
+- [DevNet Learning lab](https://learninglabs.cisco.com/labs/tags/PaNDA)
+
 
 ## Cisco Zeus (Cloud offering, Restricted Beta)
 
