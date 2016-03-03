@@ -6,11 +6,12 @@ Contributors welcome, CC BY 4.0 license.
 
 - [New to Cisco APIs](#toc_DevNet)
 - [Collaboration](#toc_Collaboration)
-- [Data & Analytics](#toc_Data): [Data in Motion](#toc_DMO),
+- [Data & Analytics](#toc_Data)
 - [DevOps, Software Tools & Automation](#toc_DevOps)
 - [IoT](#toc_IoT): [Data in Motion](#toc_DMO)
 - [Private & Hybrid Cloud](#toc_PrivateCloud)
 - [Programmable networks](#toc_Networking)
+
 
 # <a name="toc_DevNet"></a>New to Cisco APIs ?
 
@@ -149,11 +150,75 @@ As of March 2016, Data in Motion is supported on Cisco UCS C-series and E-series
    - A Large Offshore Field Produces: 0.75TB of Data Weekly
    - An Airplane: 10TB of Data for Every 30 Minutes of Flight
 
+## Jasper (Acquisition announced Feb 2016)
+
+The Jasper IoT service platform - Control Center - automates your IoT services across connected devices : launch, manage, and monetize IoT services, over more than 100 countries thanks to Jasper production-ready partnerships with more than 25 Mobile operators.
+
+- [Jasper Corporate Portal](http://www.jasper.com/)
+- [Acquisition](http://newsroom.cisco.com/press-release-content?articleId=1741680)
 
 
 # <a name="toc_PrivateCloud"></a>Private & Hybrid Cloud
 
-## OpenStack contributions
+## Metapod
+
+Cisco Metapod is a production-ready private cloud infrastructure based on [OpenStack](#toc_OpenStack).
+Metapod  is custom-engineered, deployed, and remotely operated 24x7x365 by Cisco.
+Cisco provides platform and security updates, operates the platform with 99.99% SLA guarantees and supports enterprise capacity planning requirements.
+
+- [Cisco Metapod](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/index.html)
+- [DevNet Metapod Center](https://developer.cisco.com/site/Metapod/)
+- [API compatibility](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/api-compatibility.html): 100% API coverage for computing and storage, OpenStack APIs, AWS compatible APIs for core services, Native API support to automation and tooling platforms (Chef, Puppet, Salt, Ansible, Fog, libcloud, jclouds...) and many more)
+
+### <a name="toc_OpenStack"></a>OpenStack contributions
+
+OpenStack is a large open source software project that provides a platform for creating, operating, and consuming public and private clouds. OpenStack abstracts key elements of a datacenter - compute, storage, and networking resources, into pools of resource accessible by a unified API. As a OpenStack cloud tenant or a cloud application, you can use these APIs to provision these resources within the limits set by the administrator.
+
+- [OpenStack at Cisco](https://developer.cisco.com/site/openstack/discover/overview/): Cisco’s technical and operational involvement with OpenStack
+   - [Cisco products integration](https://developer.cisco.com/site/openstack/downloads/openstack-integration/)
+- [OpenStack on your laptop](https://learninglabs.cisco.com/labs): self-paced lab to install and start using OpenStack within a virtual machine (VM)
+
+## Hybrid cloud
+
+### CliQr
+
+CliQr CloudCenter is a platform to model, deploy and manage the entire lifecycle of applications onto 15 public (Amazon Web Services, Google Compute Platform, Microsoft Azure, Rackspace, IBM, NTT) and private cloud environments (VMWare, OpenStack, Cisco UCS director, )
+
+- [Cliqr](http://www.cliqr.com/platform/)
+- [CloudCenter API](http://docs.cliqr.com/display/40API/CloudCenter+API+Overview)
+- [Acquisition announcement](http://newsroom.cisco.com/press-release-content?type=webcontent&articleId=1750092)
+
+### Partners
+
+- [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic (On-premises Openstack, Cisco Metapod, Amazon AWS, Microsoft Azure)
+
+## Cloud native platform
+
+### CloudFoundry
+
+The [CloudFoundry PaaS](http://pivotal.io/cisco) - installed onto [Cisco Metapod](#toc_Metapod) private cloud infrastructure - enables enterprises to rapidly deploy new applications using any language/runtime and leveraging various backing services.
+
+- [Peder Ulander](pulander@cisco.com): Cisco’s VP of Cloud and Managed Services
+
+
+# <a name="toc_Networking"></a>Programmable networks
+
+Since March 2016, the umbrella terminology is [Cisco DNA (Digital Network Architecture)]().
+
+- [DevNet Networking Portal](https://developer.cisco.com/networking): all about Cisco network programming for developers network engineers
+
+## Configure your network
+
+- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format
+
+- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
+modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
+
+- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
+
+## Software Defined Network (SDN) & Network Functions Virtualization (NFV)
+
+### ACI/APIC
 
 ### OpenDayLight
 
@@ -174,49 +239,3 @@ Security: the platform provides a framework for Authentication, Authorization an
 ###  OPNFV
 
 https://developer.cisco.com/site/opnfv/
-
-
-## Metapod
-
-Cisco Metapod is a production-ready private cloud infrastructure based on OpenStack.
-Metapod  is custom-engineered, deployed, and remotely operated 24x7x365 by Cisco.
-Cisco provides platform and security updates, operates the platform with 99.99% SLA guarantees and supports enterprise capacity planning requirements.
-
-- [Cisco Metapod](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/index.html)
-- [DevNet Portal](https://developer.cisco.com/site/Metapod/)
-- [API compatibility](http://www.cisco.com/c/en/us/products/cloud-systems-management/metapod/api-compatibility.html): 100% API coverage for computing and storage, OpenStack APIs, AWS compatible APIs for core services, Native API support to automation and tooling platforms (Chef, Puppet, Salt, Ansible, Fog, libcloud, jclouds...) and many more)
-
-## Hybrid cloud
-
-### CliQr
-
-CliQr CloudCenter is a platform to model, deploy and manage the entire lifecycle of applications onto 15 public (Amazon Web Services, Google Compute Platform, Microsoft Azure, Rackspace, IBM, NTT) and private cloud environments (VMWare, OpenStack, Cisco UCS director, )
-
-- [Cliqr](http://www.cliqr.com/platform/):
-- [CloudCenter API](http://docs.cliqr.com/display/40API/CloudCenter+API+Overview)
-- [Acquisition announcement](http://newsroom.cisco.com/press-release-content?type=webcontent&articleId=1750092)
-
-- [Morpheus (Cisco partner)](https://www.morpheusdata.com/): Cloud Application Management and Orchestration Platform, infrastructure agnostic (On-premises Openstack, Cisco Metapod, Amazon AWS, Microsoft Azure)
-
-## Cloud native platform
-
-The [CloudFoundry PaaS](http://pivotal.io/cisco) - installed onto [Cisco Metapod](#toc_Metapod) private cloud infrastructure - enables enterprises to rapidly deploy new applications using any language/runtime and leveraging various backing services.
-
-- [Peder Ulander](pulander@cisco.com): Cisco’s VP of Cloud and Managed Services
-
-# <a name="toc_Networking"></a>Programmable networks
-
-[DevNet Networking Portal](https://developer.cisco.com/networking): all about Cisco network programming for developers network engineers
-
-## Configure your network
-
-- [RESTCONF](http://sdntutorials.com/what-is-restconf) : HTTP-based protocol, which provides REST-like APIs to manipulate YANG modeled data and invoke YANG modeled RPCs, using XML or JSON as payload format
-
-- [NETCONF]() : XML-based RPC protocol, which provides abilities for client to invoke YANG-
-modeled RPCs, receive notifications and to read, modify and manipulate YANG modeled data.
-
-- [Cisco Prime Infrastructure API](https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/)
-
-## Software Defined Network (SDN) & Network Functions Virtualization (NFV)
-
-- ACI/APIC
