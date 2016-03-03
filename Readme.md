@@ -172,6 +172,7 @@ The Jasper IoT service platform - Control Center - automates your IoT services a
 
 - [Jasper Corporate Portal](http://www.jasper.com/)
 - [Acquisition](http://newsroom.cisco.com/press-release-content?articleId=1741680)
+- [Twitter](https://twitter.com/Jasper_IoT)
 
 
 # <a name="toc_PrivateCloud"></a>Private & Hybrid Cloud
@@ -198,11 +199,13 @@ OpenStack is a large open source software project that provides a platform for c
 
 ### CliQr
 
-CliQr CloudCenter is a platform to model, deploy and manage the entire lifecycle of applications onto 15 public (Amazon Web Services, Google Compute Platform, Microsoft Azure, Rackspace, IBM, NTT) and private cloud environments (VMWare, OpenStack, Cisco UCS director, )
+CliQr CloudCenter is a platform to model, deploy and manage the entire lifecycle of applications onto 15 public (Amazon Web Services, Google Compute Platform, Microsoft Azure, Rackspace, IBM, NTT...) and private cloud environments (VMWare, OpenStack, Cisco UCS director...)
 
 - [Cliqr](http://www.cliqr.com/platform/)
 - [CloudCenter API](http://docs.cliqr.com/display/40API/CloudCenter+API+Overview)
 - [Acquisition announcement](http://newsroom.cisco.com/press-release-content?type=webcontent&articleId=1750092)
+- [Twitter](https://twitter.com/CliQrTech)
+
 
 ### Partners
 
