@@ -28,33 +28,33 @@ Take a few minutes to create your account, it's really worth it :
 
 ## <a name="toc_Tropo"></a>Tropo
 
-Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, and by integration, understand both ways :
-your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages.
-Worldwide availability, numbers in 42 countries, 80 speech languages
-Data center facilities in the US, [coming to Europe by June 2016](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1)
+Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming messages.
+Worldwide availability, phone numbers in 42 countries, Text to Speech and Speech Recognition for 80 languages, data center facilities in the US, [coming to Europe by June 2016](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1).
+Groovy/Javascript/PHP/Python/Ruby scripts can also be  deployed to the Hosting platform so that your custom SMS & Calls codes get backed 24x7 by Tropo Operations Teams.
 
 - [Tropo APIs](https://www.tropo.com/docs/) : scripting, Web API & REST API documentation
 - [Github Samples](https://github.com/tropo/tropo-samples)
-- [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : integrate SMS & Calls into your apps, and by integration, understand both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming SMS messages.
+- [DevNet Learning Lab](https://learninglabs.cisco.com/lab/tropo-intro/step/1) : learn to deploy scripts on the Tropo platform
 - [Pricing](https://www.tropo.com/pricing/)
 - [Twitter @Tropo](https://twitter.com/Tropo)
    - [@TropoChanges](https://twitter.com/tropochanges) : get realtime insights to Tropo Cloud
-   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [steve](https://twitter.com/ObjectIsAdvantag)
+   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [steve](https://twitter.com/ObjectIsAdvantag), , [tessa](https://twitter.com/TessaMero)
 
 
 ## <a name="toc_Spark"></a>Cisco Spark
 
-Since March 2015, [Cisco Spark](https://www.ciscospark.com/) is the all-in-one Cloud Collaboration platform for the extended enterprise.
+[Cisco Spark](https://www.ciscospark.com/) is the all-in-one Cloud Collaboration platform for the extended enterprise.
 In short, Cisco Spark is a multi-client platform (Phone, Mac, Windows apps), backed by Cloud Collaboration Services (persistent chat rooms, WebRTC video conferencing), enabling 1-1, 1-few, 1-many communication.
 Cisco Spark can be used for short-live meeting rooms, but also long-live collaborative workspaces, opened to internal co-workers, but also partners and external communities.
 
-The overall Cisco Spark platform can be managed via [REST APIs](https://developer.ciscospark.com/getting-started.html) : easily bring messaging capabilities into your apps, automatically send messages to Spark rooms based on real-world/business events.
+The overall Cisco Spark platform can be managed via [REST APIs](https://developer.ciscospark.com/getting-started.html) : easily bring messaging capabilities to your apps or create Spark rooms on the fly to address real-world/business needs.
 
 - [Spark APIs](https://developer.ciscospark.com/getting-started.html): REST APIs interactive documentation
 - [Spark for developers](https://developer.cisco.com/site/spark/): the DevNet umbrella for all Spark related contents for developers
 - [Learning labs](https://developer.cisco.com/site/spark/): Rooms and messages, Authentication, WebHooks
+- [Spark support room](https://developer.ciscospark.com/support.html): get instant answers about Spark to speed up your devs, /join #spark4devs
 - [Twitter @CiscoSparkDev](https://twitter.com/ciscosparkdev)
-   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [steve](https://twitter.com/ObjectIsAdvantag)
+   - evangelists: [adam](https://twitter.com/akalsey), [diggz](https://twitter.com/JohnnyDiggz), [marcello](https://twitter.com/marchfederico), [paul](https://twitter.com/paultodwyer), [phil](https://twitter.com/PBellanti), [stève](https://twitter.com/ObjectIsAdvantag), [tessa](https://twitter.com/TessaMero)
    - consulting: [Fabien Medat](https://www.ciscospark.com/): head of technical consulting for Collaboration French Team
 
 ## <a name="toc_WebEx"></a>WebEx
