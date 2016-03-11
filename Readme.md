@@ -1,6 +1,6 @@
 # Everything API-enabled at Cisco
 
-This guide is an opinionated tentative to synthesize [Cisco APIs for developers & network engineers](https://developer.cisco.com/site/devnet/index/) with no to little knowledge of Cisco hardware, software and solutions.
+This guide is an opinionated tentative to synthesize [Cisco APIs for developers & network engineers](https://developer.cisco.com/site/devnet/index/) with little to no knowledge of Cisco hardware, software and solutions.
 Started as a tribute to my "First Days Party" at Cisco Live Berlin Feb 15-19th 2016.
 Contributors welcome, CC BY 4.0 license.
 
@@ -22,7 +22,7 @@ Take a few minutes to create your account, it's really worth it :
 - [Learning labs](https://learninglabs.cisco.com/springboards) : step by step walkthroughs for ITPros & developers, featuring live environments to interact with Cisco programmable products
 - [Programming foundation](https://learninglabs.cisco.com/modules/programming-found) : learn REST principles and how to call them via a User Interface, from the command line, or from code
 - [Sandbox](https://developer.cisco.com/site/devnet/sandbox/): provision various CISCO hardware and network topologies and experiment Live APIs. Environments are provisionned for your own use from 3 hours to 7 days. APIC-EM , Cisco Open SDN Controller , Jabber , Webex , Intercloud Fabric...
-- [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : Showcase of software projects built out of Cisco APIs and open technologies contributed by Cisco
+- [DevNet Labs](https://developer.cisco.com/site/devnetlabs/) : showcase of software projects built out of Cisco APIs and open technologies contributed by Cisco
 
 # <a name="toc_Collaboration"></a>Collaboration
 
