@@ -1,7 +1,7 @@
 # Contribution guidelines
 
 We want this guide to be a great starting point for new comers to CISCO APIs.
-As such, we want it to be quick and easy : browse the page, pick a technology, select resources, done.
+As such, we want it to be quick and easy : browse the page, pick a technology, select resources, and done.
 
 # API entries
 
@@ -18,18 +18,18 @@ We'll try to group technologies by general concern domains : Cloud, Dev tools, C
 Let's make this grouping evolve as new technologies get added.
 
 Several grouping may appear to be relevant over time.
-We'll see how to handle this aspects : tagging, query API ...
+We'll see how to handle these aspects : tagging, query API ...
 
 # Resources selection
 
 We encourage resources which do not require authentication.
-Let's say Cisco Devnet will be the exception here ;-)
+Let's say Cisco DevNet will be the exception here ;-)
 
 # Granularity
 
 We'll try to make a technology no more than 20 lines, to keep this guide viewable in a single page.
 
-We'll may introduce a second level of page if a section gets growing over acceptable limits.
+We may introduce a second level of page if a section gets growing over acceptable limits.
  
 # Join
 
