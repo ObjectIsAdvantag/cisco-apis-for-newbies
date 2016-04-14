@@ -29,7 +29,7 @@ Take a few minutes to create your account, it's really worth it :
 ## <a name="toc_Tropo"></a>Tropo
 
 Since 2009, [Tropo](http://www.tropo.com) provides Cloud Services to integrate SMS & Calls into your apps, both ways : your app can interact with incoming calls AND place outgoing calls, your app can send SMS messages AND take action at incoming messages.
-Worldwide availability, phone numbers in 42 countries, Text to Speech and Speech Recognition for 80 languages, data center facilities in the US, [coming to Europe by June 2016](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1).
+Worldwide availability, phone numbers in 42 countries, Text To Speech (TTS) for 80 languages and Speech Recognition (ASR), high scalability with data center facilities in the US, [coming to Europe by June 2016](https://medium.com/@ObjectIsAdvantag/cisco-tropo-is-coming-to-europe-in-spring-2016-add-sms-phone-calls-to-your-app-starting-today-b649a30a01e1).
 Groovy/Javascript/PHP/Python/Ruby scripts can also be  deployed to the Hosting platform so that your custom SMS & Calls codes get backed 24x7 by Tropo Operations Teams.
 
 - [Tropo APIs](https://www.tropo.com/docs/) : scripting, Web API & REST API documentation
