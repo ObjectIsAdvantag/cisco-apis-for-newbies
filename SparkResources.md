@@ -32,11 +32,15 @@ https://www.npmjs.com/~samwomack
 
 ## Python
 
-### cmlCiscoSparkSDK
+### Python Spark Library (community)
 
-Pythonic classess and methods for working with the Cisco Spark cloud services APIs. 
+Python Library to Interface to Cisco Spark REST API
 
+- code : https://github.com/brbester/pyCiscoSpark
 - code : https://github.com/cmlccie/cmlCiscoSparkSDK
+- code : https://github.com/jeokrohn/cisco_spark
+- code : https://github.com/chopperz1979/CiscoSpark
+- code : https://github.com/shenning00/pyCiscoSparkAPIcmlCiscoSparkSDK
 
 
 # Instant Room Tools 
